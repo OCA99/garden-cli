@@ -1,0 +1,17 @@
+{
+  "name": "garden-cli",
+  "version": "1.0.0",
+  "description": "🌱 [Maggie Appleton's Garden History](https://maggieappleton.com/garden-history)",
+  "main": "dist/app.js",
+  "scripts": {
+    "start": "tsc && node dist/app.js",
+    "lint": "eslint . --ext .ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  }
+}
